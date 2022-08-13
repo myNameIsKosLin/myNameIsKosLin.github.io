@@ -1338,7 +1338,7 @@ pre code {
 }
 .brand {
   border-bottom: 0;
-  color: var(--brand-color);
+  color: #1ceda8 !important;
   display: inline-block;
   padding: 0 40px;
 }
@@ -1479,6 +1479,7 @@ pre code {
   border: 2px solid #333;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
   color: #f5f5f5;
@@ -2903,7 +2904,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #397cbe;
+  background: #286fd0;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
