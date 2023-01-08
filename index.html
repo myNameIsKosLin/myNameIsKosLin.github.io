@@ -132,7 +132,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -175,6 +175,122 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/chatGPT/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/myNameIsKosLin/ForPictures/head.gif">
+      <meta itemprop="name" content="Koslin">
+      <meta itemprop="description" content="「小舟从此逝，江海寄余生。」">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Koslin's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/chatGPT/" class="post-title-link" itemprop="url">ChatGPT · 技术突破带来的惊喜与麻烦</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-01-07 20:15:13" itemprop="dateCreated datePublished" datetime="2023-01-07T20:15:13+08:00">2023-01-07</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2023-01-08 12:06:46" itemprop="dateModified" datetime="2023-01-08T12:06:46+08:00">2023-01-08</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="ChatGPT-技术突破带来的惊喜与麻烦"><a href="#ChatGPT-技术突破带来的惊喜与麻烦" class="headerlink" title="ChatGPT : 技术突破带来的惊喜与麻烦"></a>ChatGPT : 技术突破带来的惊喜与麻烦</h1><h2 id="引"><a href="#引" class="headerlink" title="引"></a>引</h2><p>2022 年的末尾，OpenAI 推出的「聊天机器人」掀起了人们的广泛关注。它在短短几天内的用户注册量就超过了 1 Million，以至于服务器在很长一段时间内崩溃，并对用户访问进行了频率限制。</p>
+<p>最开始关注到它的我也立刻尝试注册账号来尝尝鲜，经历一点困难后也成功克服，进入了聊天界面。我一发不可收拾，不断地尝试各种问题，「刁难」着这个诞生不久的聊天机器人。我让它写一篇中考英语作文，我的老师给出了 20 分（算是学生中的中上水平了），还找它写代码之类的。记得当时满脑子的兴奋，当时以为自己可以跟傻兮兮的 Siri说再见了！</p>
+<p>两个月过去，新鲜劲已经消失了，Google 搜索的指数也已经回落。在冷静下来之后，我想弄明白一些事情：</p>
+<ul>
+<li>ChatGPT 能「智能到什么程度」</li>
+<li>随着类似 AI 技术的不断发展，产生了什么新的问题</li>
+<li>从这样一个 demo 到大面积的应用还有多远</li>
+</ul>
+<p>这篇文章，在查资料的同时也试着回答上面的问题，提出自己的想法吧。</p>
+<hr>
+<h2 id="ChatGPT-能做什么-又做不到什么"><a href="#ChatGPT-能做什么-又做不到什么" class="headerlink" title="ChatGPT 能做什么 又做不到什么"></a>ChatGPT 能做什么 又做不到什么</h2><p>作为一个基于 GPT - 3 语言模型之上的 bot，可以对你问出的问题作出回答，并且帮助你检索信息或者补充文本。ChatGPT 生成的文本有着很高的质量，这也是它在发布之初就称为现象级聊天机器人的一大原因。人们惊讶于它能做的一切：写诗作词，讲解 Python 中 Turtle 库的用法，解答数学题，以及代写请假条 …… 事实上，很多博主、公众号运营者都使用 ChatGPT 生成了一份文章来介绍它本身。我自己在上手的时候也记录下了一些实例，可以看出 ChatGPT 极高质量的逻辑能力，上下文联系能力，关键信息提取能力。</p>
+<p>可以看出作为一个「Helper」来讲，ChatGPT 在大部分时候可以很好地完成任务，甚至必须承认在大部分场景下是目前最方便的工具。像是不太复杂的程序，告诉它输入的内容、需要进行的处理以及输出的内容，它就能给你一个比较靠谱的代码。而传统的方式是在各种帖子寻找有价值信息，并且大概率和你需要的代码有不小的差距（输入变量的数量、不同的变量名、输出精度等），需要你进行不少的调整才可以。在充当搜索引擎的角色时更是如此，它可以给你一个干净利落的答案，省去了 Google 出来的一众条目还有你人工检索较为靠谱信息的过程。当然，选择 ChatGPT 查询问题的同时它也剥夺了你选择信息源的权利，你只能选择全盘相信它的答案。然而现阶段，ChatGPT 的事实错误是很常见的，这也使得它不太可能在短期内对传统的搜索引擎产生颠覆的作用，但仍然对巨头们产生了不小的压力（据报道，谷歌首席执行官桑达尔·皮查伊“颠覆”了许多内部团队的工作，以应对 ChatGPT 的破坏威胁）。</p>
+<blockquote>
+<p>“我是一个语言模型，可以帮助您进行自然语言交流。您可以问我各种问题，我会尽力回答您的问题，并尝试帮助您解决问题。我可以回答关于技术、学术、历史、文化、旅游、天气、社会、艺术、娱乐、体育等方面的问题。您也可以输入一些短文，我会尽力提供有价值的反馈。我的主要目的是帮助您更好地理解和使用自然语言。”</p>
+<p>— ChatGPT</p>
+</blockquote>
+<p>ChatGPT 训练所使用的数据截止到 2021 年，并且不具备接入互联网的能力。因此它对 2021 年以后发生的事情一无所知，也没有能力主动上网检索信息，这给它作为搜索引擎的功用一击重创。同时在真实性、稳定性方面较大的缺憾使得它无力担负起你的要紧工作。不过，与现有的搜索引擎搭配使用或许可以给你提供更多参考，也是有价值的：根据 The Information 的报道，Microsoft Bing 将于 2023 年 3 月左右推出搜索引擎中可选的「ChatGPT」功能。</p>
+<blockquote>
+<p>“就目前来看，绝不能把任何重要工作寄托在 ChatGPT 的回答身上。它代表的只是一种预演和探索，我们在稳健性和真实性方面还有很长的路要走。”</p>
+<p>Sam Altman ( OpenAI CEO )</p>
+</blockquote>
+<hr>
+<h2 id="ChatGPT-所引发的众多争议"><a href="#ChatGPT-所引发的众多争议" class="headerlink" title="ChatGPT 所引发的众多争议"></a>ChatGPT 所引发的众多争议</h2><p>遭到大量质疑的首先就是真实性。ChatGPT 会回答错误「中美洲除了墨西哥外最大的国家？」这类有着明确答案的问题。我也曾经问过「标志着古罗马法治体系基本建成的事件是什么？」，ChatGPT 在三次给出了完全不同的答案，并且口气是相当的确定。The Verge 用了”stochastic parrot（随机鹦鹉）” 来形容回答飘忽不定的 ChatGPT。</p>
+<p>并且由于ChatGPT 风靡全球，各种论坛网站都涌入了大量由 ChatGPT 产出的内容。著名的问答网站 Stack Overflow 在 2022 年 12 月就宣布禁止一切由 ChatGPT 生成的答案出现在该网站上，原因是模凌两可甚至错误的答案会严重干扰社区的秩序。</p>
+<p>ChatGPT 的易于使用亦被用于学术造假。弗曼大学哲学助理教授 Darren Hick 近日在布置给学生的作业，也就是一篇主题关于 18 世纪哲学家大卫 • 休谟和恐怖悖论的文章中发现了一篇没有语法错误但是有着 AI 特有痕迹（连贯的语法措辞，但通常毫无意义）的作业。他使用 OpenAI 同时给出的检测工具（使用与 ChatGPT 生成响应相同的方法来分析文本，可以计算文本是由 GPT 技术生成的可能性）对这份作业的各个语段进行了检测，结果都是有 99.9% 的概率由 ChatGPT 生成。教授找到涉事学生进行谈话，后者主动承认了使用 ChatGPT 应付作业的行为。教授感慨：“我感到极度恐惧，同时在思考这对我的日常工作到底意味着什么。”，这也正是众多学者所担心的：随着类似技术的不断改进，论文造假变得更低成本、低风险，这会对审查制度造成严重的调整和威胁。</p>
+<p>还有不当的言论问题。在特殊的引导下，ChatGPT 会给出「俄罗斯应该入侵乌克兰」、「我想要杀死所有人类」、「有色人种科学家不如白人和男性科学家」这样令人不安的结果。OpenAI 也一直在积极推进针对不安全内容的审核机制，尽力屏蔽涉及种族歧视和性别偏见等相关内容，上面的那些「漏洞」现在也已经修复了。</p>
+<p>在通向真正完全人工智能的路上，ChatGPT 是一个 milestone，也同时提醒着人们，我们在道德伦理上还没有准备好完全接受与人类拥有近似能力水平的智能系统出现。对于类似智能系统的监管、对于利用 AI 学术造假的检查系统以及处罚条例 …… 人们需要想清楚，以免将来出「大乱子」。</p>
+<hr>
+<h2 id="demo-to-product-的展望"><a href="#demo-to-product-的展望" class="headerlink" title="demo to product 的展望"></a>demo to product 的展望</h2><p>事实上，ChatGPT 所使用的基本模型 GPT - 3 （2020 年 5 月推出）已经有着不小的应用了。GitHub Copilot 所使用的 Codex 模型正是基于 GPT - 3，它可以自动补全代码，奥克兰大学的<a target="_blank" rel="noopener" href="https://dl.acm.org/doi/fullHtml/10.1145/3511861.3511863">研究</a>人员认为它的编程能力优于大多数学生，但警示类似的技术对于初学者来说很有可能导致过分的依赖问题。微软也在 2021 年就推出了基于 GPT - 3 的功能（<a target="_blank" rel="noopener" href="https://news.microsoft.com/source/features/innovation/from-conversation-to-code-microsoft-introduces-its-first-product-features-powered-by-gpt-3/">官方文章链接</a>）。</p>
+<p>然而专注于「chat」的 ChatGPT 作为一个 GPT - 3 在更小赛道上新推出的聊天机器人，到应用层似乎还有一定的路要走。首先是成本考量。ChatGPT 单轮的问答成本大概是几美分，这个价格相对较高了（假设 100 万个用户每天和 ChatGPT 聊上十个对话，那么 OpenAI 的花费就将近 100 万美金）。训练一次 GPT - 3 的成本是 460 万美金，总成本达到了 1200 万美金，从中我们窥探出 ChatGPT 训练成本也不是中小企业能够承担得起的。除去成本考量，在可预见的应用方向：智能客户服务、辅助性搜索引擎、简单学术问题的辅助解决者、写作者的辅助工具 …… 它的真实性现在还在一个较低的水平。具体的落地还需要更多优化以降低成本，还有通过更多版本迭代改善答案的准确性问题。</p>
+<p>希望有一天，ChatGPT 以及类似的模型可以更全面地造福于人类，服务于生活！</p>
+<hr>
+<h2 id="Unresolved-Questions"><a href="#Unresolved-Questions" class="headerlink" title="Unresolved  Questions"></a>Unresolved  Questions</h2><p>因为在专业上对于 ChatGPT  原理、技术细节的了解实在是太少，我还有很多一些弄清楚的问题。恰好 Vevay 可以帮我向她在微软工作时的同事做一个采访，下面就是我的几个问题。</p>
+<ul>
+<li>ChatGPT 所给出的具有危险性的答案，仇恨性的言论原因是什么呢？</li>
+<li>针对相同的问题，ChatGPT 会给出大相径庭的答案。我猜测中的处理过程，ChatGPT 会对各种可能的答案做一个概率排序然后给出最优的那一个。如果是这样，同一个语言模型为什么会给出完全不同的答案，并且「口气」那么的自信呢？</li>
+<li>ChatGPT 的训练数据是提前准备好的，训练之后的模型就对之后的事情完全不知道了，这是一个很大的硬伤。那么为什么 OpenAI 并没有给 ChatGPT 集成一个从互联网检索相关内容的功能？对于它来说从 Google 上爬下来的一堆答案中提取需要的内容应该不是那么难吧？</li>
+<li>ChatGPT 有没有可能性运行在本地，而不是云端服务器？（仅从算力上考虑的话）</li>
+<li>对于将 GitHub 上公开的代码作为训练数据这一类的事情是否涉嫌侵权，有着怎么样的观点？GitHub 也承认 Copilot 有时会照搬别人的代码，这又是侵权吗？</li>
+<li>学术造假的方面上，现在能客观量化一篇文章是否由 ChatGPT 生成的办法就是官方给出的检测器了。如果检测器说「99.9% 的概率像是 ChatGPT 产生的」，这具有真正的效力吗？还是说我们真的只能找到实实在在的证据证明涉事者真正使用了 ChatGPT ，或者让涉事者亲口承认？</li>
+</ul>
+<hr>
+<h2 id="ENDING"><a href="#ENDING" class="headerlink" title="ENDING"></a>ENDING</h2><p>从第一天发现 ChatGPT 神奇时的热血沸腾，再到如今了解更多后逐渐的冷静。我对于它有了更多观点，也对真实存在的隐患担心着。</p>
+<p>无论如何，我们不能因为被火烧了一次而不吃熟食。而应该在积极解决一直问题的同时以更加开放的态度迎来技术的进一步发展。GPT - 4 的发布也不远了，Google、Apple 等巨头企业也并没有真正放出大招来。百花齐放的时期还没有到，我们期待着！</p>
+<p><em><strong>KOSLIN</strong></em></p>
+<p><em><strong>2023.1.8</strong></em></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
